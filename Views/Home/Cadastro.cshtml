@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <form action="/home/cadastro" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="usuario_nome" />
+        </div>
+        <div>
+            <label for="idade">Idade:</label>
+            <input type="text" id="nome" name="usuario_idade" />
+        </div>
+        <div>
+            <label for="msg">Telefone:</label>
+            <textarea id="msg" name="usuario_msg"></textarea>
+        </div>
+
+        <div class="button">
+            <button type="submit">Salvar</button>
+        </div>
+    </form>
+</body>
+</html>
